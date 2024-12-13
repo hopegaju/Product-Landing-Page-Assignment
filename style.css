@@ -185,4 +185,23 @@ nav > ul {
     width: 80vw;
     padding: 5px;
   }
-
+/* feutures responsives */
+@media (max-width: 550px) {
+    #features .icon {
+      display: none;
+    }
+}
+@media (max-width: 550px) {
+    #features .desc {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
+    }
+}
+  
+@media (max-width: 650px) {
+    #features {
+      margin-top: 0;
+    }
+}
