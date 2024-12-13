@@ -158,3 +158,13 @@ nav > ul {
     transition: background-color 1s;
 }
 
+/* home responsiveness */
+@media (max-width: 650px) {
+    #hero {
+      margin-top: 120px;
+    }
+}
+ /* sevices "features" styles */
+ #features {
+    margin-top: 30px;
+}
